@@ -1,0 +1,39 @@
+http://blog.csdn.net/u011718701/article/details/60873354
+=========================================================
+Average Precision (AP):
+AP
+APIoU=.50
+APIoU=.75
+AP Across Scales:
+APsmall
+APmedium
+APlarge
+Average Recall (AR):
+ARmax=1
+ARmax=10
+ARmax=100
+AR Across Scales:
+ARsmall
+ARmedium
+ARlarge
+ 
+% AP at IoU=.50:.05:.95 (primary challenge metric)
+% AP at IoU=.50 (PASCAL VOC metric)
+% AP at IoU=.75 (strict metric)
+
+% AP for small objects: area < 322
+% AP for medium objects: 322 < area < 962
+% AP for large objects: area > 962
+
+% AR given 1 detection per image
+% AR given 10 detections per image
+% AR given 100 detections per image
+
+% AR for small objects: area < 322
+% AR for medium objects: 322 < area < 962
+% AR for large objects: area > 962
+=========================================================
+1对位置敏感
+2端到端 共享  比mnc在coco
+ohem 不能用于
+全卷积rpn
